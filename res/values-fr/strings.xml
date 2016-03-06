@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="set">Fixé</string>
+    <string name="app_name">Facebook Text</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Déconnexion</string>
+    <string name="action_change_background">Chat Background</string>
+    <string name="action_rename_friend">Renommer cet ami</string>
+    <string name="action_block_friend">Interdire cet ami</string>
+    <string name="action_unblock_friend">Activer cet ami</string>
+    <string name="action_add_favourite">Ajouter aux favoris</string>
+    <string name="action_remove_favorite">Retirer des favoris</string>
+    <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_once">Once</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+    <string name="mtm_trust_anchor">The server certificate is not signed by a known Certificate Authority.</string>
+    <string name="mtm_cert_expired">The server certificate is expired.</string>
+    <string name="mtm_accept_servername">Accept Mismatching Server Name?</string>
+    <string name="mtm_hostname_mismatch">Server could not authenticate as \&quot;%s\&quot;. The certificate is only valid for:</string>
+    <string name="mtm_connect_anyway">Do you want to connect anyway?</string>
+    <string name="mtm_cert_details">Certificate details:</string>
+    <string name="friend_name_default">Facebook User</string>
+    <string name="loading">Chargement &#8230;</string>
+    <string name="no_result">Aucun ami trouvé</string>
+    <string name="no_friend_loaded">No friend loaded yet</string>
+    <string name="action_search">recherche</string>
+    <string name="action_change_state_chat">Changer de statut en ligne</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="sent_time">11h47 pm</string>
+    <string name="enter_new_name">Entrer un nouveau nom</string>
+
+    <!-- <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string> -->
+    <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string>
+    <string name="title_activity_change_chat_back_ground">Select chat background</string>
+
+    <string name="load_avatar_titile">Photo charge avatar</string>
+    <string name="load_avavtar_caution"> Cela peut ralentir la connexion</string>
+    
+    <string name="status_titile">Connectez-vous invisible</string>
+    
+    <string name="change_status_title">Le changement de statut</string>
+    <string name="online">En ligne</string>
+    <string name="offline">Invisible</string>
+    <string name="connecting_message">Connexion au serveur Facebook &#8230;</string>
+    <string name="is_now_online">Est maintenant en ligne</string>
+    <string name="is_offline">Est déconnecté</string>
+    <string name="is_online">Est en ligne</string>
+    <string name="added">Ajouté </string>
+    <string name="removed">Supprimer</string>
+    <string name="from_block_list"> de liste des produits interdits</string>
+    <string name="into_block_list"> dans liste des produits interdits</string>
+    <string name="block_description">Vous ne recevrez pas de notification quand un nouveau message de cet ami à venir</string>
+    <string name="as_favorite"> as favoris</string>
+    <string name="from_favorite_list"> de la liste des favoris</string>
+    <string name="favorite_description">Vous serez averti ami quand préférée en ligne</string>
+    <string name="login">Connexion</string>
+    
+    <string name="close_connection_message">connexion fermée!</string>
+    
+    <string name="not_connect">non connecté  &#9785;</string>
+    <string name="connecting">de liaison &#8230;</string>
+    <string name="no_internet_connection">Pas de connexion Internet &#9785;</string>
+    <string name="connected">connexion okay &#9786;</string>
+    
+    
+    
+    
+        <!-- Example General settings -->
+        <string name="title_activity_settings">Paramètres</string>
+    <string name="pref_header_general">Général</string>
+    <string name="pref_store_old_message">Rangez ancien message</string>
+    <string name="pref_store_old_message_description">Les messages seront stockés dans la base de données lorsque vous quittez l\'application</string>
+    <string name="store_old_message_key">store_old_message_key</string>
+    <string name="load_avatar">load_avatar</string>
+    <string name="pref_load_avatar_titile">télécharger avatar</string>
+    <string name="pref_load_avatar_description">Décochez cette option si vous avez une connexion Internet lente </string>
+    <string name="pref_change_chat_background">changer le papier peint</string>
+    <string name="pref_title_font_size">taille de la police</string>
+
+    <string-array name="pref_list_font_titles">
+        <item>Petit</item>
+        <item>Normal</item>
+        <item>Grand</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <!-- activity login -->
+    
+    
+     <string name="title_activity_login">Sign in</string>
+        <string name="prompt_email">Compte</string>
+    <string name="prompt_password">mot de passe</string>
+    <string name="action_sign_in_register"><b>Se connecter</b></string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in &#8230;</string>
+    <string name="login_progress_loading">Loading &#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">The password or usernam you enter is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_internet_connection">Se il vous plaît vérifier votre connexion Internet et réessayez</string>
+
+    <string name="welcome_message">Bienvenue à Facebook Texte</string>
+    <string name="welcome_message_description">Causons avec vos amis en utilisant votre compte Facebook</string>
+    <string name="connect_server_error">Connexion à Facebook erreur de serveur , se il vous plaît essayer à nouveau :)</string>
+    
+    <string name="cannot_connection">Impossible de se connecter au serveur , se il vous plaît vérifier votre connexion et essayez à nouveau &#9786;</string>
+    <string name="login_info_may_wrong">Vous ne pouvez pas vous connecter, se il vous plaît vérifier votre nom d\'utilisateur mot de passe et essayez de nouveau &#9786;</string>
+    <string name="buildin_message_invite">Simple et rapide Facebook Messenger pour Android</string>
+        <string name="remove_ads_prompt_message">Choisissez l\'une des manières suivantes pour éliminer les annonces</string>
+    <string name="upgrade_to_remove_ads">Amélioration</string>
+    <string name="invite_friends_to_remove_ads">Inviter des amis</string>
+    <string name="invite">Invite</string>
+    <string name="invite_friend_failed">Supprimer les annonces échoué, s\'il vous plaît réessayer plus tard!</string>
+    <string name="invitaiton_hint_message">Votre message d\'invitation...</string>
+    <string name="sorry_no_contact">Je suis vraiment désolé pour cela! Depuis que Facebook ne les laissez pas vous vous connectez messager 3e partie . Vous ne pouviez pas voir vos contacts :( \nVous pouvez essayer avec un autre compte ou d\'une autre application 3rd-party de voir ça. Il n\'y a rien que je puisse faire à ce sujet :( \nVous voudrez peut-être le désinstaller, mais s\'il vous plaît ne pas voter contre , je dois nourrir mon chat :(</string>
+    <string name="sorry_ttile">Sorry buddy!</string>
+    <string name="sorry_okay">That\'s okay</string>
+    <string name="share_intent_toast_message">Choose your friend to share</string>
+</resources>

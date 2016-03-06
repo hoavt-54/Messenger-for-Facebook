@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="set">設定する</string>
+    <string name="app_name">Facebook Text</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="action_logout">ログアウト</string>
+    <string name="action_change_background">Chat Background</string>
+    <string name="action_rename_friend">この友人の名前を変更</string>
+    <string name="action_block_friend">この友人をブロックする</string>
+    <string name="action_unblock_friend">この友人のブロックを解除</string>
+    <string name="action_add_favourite">お気に入りに加える</string>
+    <string name="action_remove_favorite">お気に入りから削除</string>
+    <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_once">Once</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+    <string name="mtm_trust_anchor">The server certificate is not signed by a known Certificate Authority.</string>
+    <string name="mtm_cert_expired">The server certificate is expired.</string>
+    <string name="mtm_accept_servername">Accept Mismatching Server Name?</string>
+    <string name="mtm_hostname_mismatch">Server could not authenticate as \&quot;%s\&quot;. The certificate is only valid for:</string>
+    <string name="mtm_connect_anyway">Do you want to connect anyway?</string>
+    <string name="mtm_cert_details">Certificate details:</string>
+    <string name="friend_name_default">Facebook User</string>
+    <string name="loading">荷重 &#8230;</string>
+    <string name="no_result">いいえ友達は見つかりませんでした</string>
+    <string name="no_friend_loaded">No friend loaded yet</string>
+    <string name="action_search">検索</string>
+    <string name="action_change_state_chat">オンラインステータスを変更</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="sent_time">11h47 pm</string>
+    <string name="enter_new_name">新しい名前を入力してください</string>
+
+    <!-- <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string> -->
+    <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string>
+    <string name="title_activity_change_chat_back_ground">選択したチャットの背景</string>
+
+    <string name="load_avatar_titile">負荷アバター画像</string>
+    <string name="load_avavtar_caution"> これは、接続が遅くなる場合があり</string>
+    
+    <string name="status_titile">目に見えないログイン</string>
+    
+    <string name="change_status_title">変更状況</string>
+    <string name="online">オンライン</string>
+    <string name="offline">Invisible</string>
+    <string name="connecting_message">Facebookサーバーへの接続  &#8230;</string>
+    <string name="is_now_online">is now online</string>
+    <string name="is_offline">is offline</string>
+    <string name="is_online">is online</string>
+    <string name="added">追加された </string>
+    <string name="removed">削除 </string>
+    <string name="from_block_list"> from 禁止されたリスト</string>
+    <string name="into_block_list"> into 禁止されたリスト</string>
+    <string name="block_description">この友人からの新しいメッセージが来たときに、通知を受信しません</string>
+    <string name="as_favorite"> as お気に入り</string>
+    <string name="from_favorite_list"> from list favorites</string>
+    <string name="favorite_description">あなたは、オンラインのお気に入りの友達が通知されます</string>
+    <string name="login">ログイン</string>
+    
+    <string name="close_connection_message">接続クローズ!</string>
+    
+    <string name="not_connect">接続されていません  &#9785;</string>
+    <string name="connecting">接続する &#8230;</string>
+    <string name="no_internet_connection">いいえ、インターネット接続 &#9785;</string>
+    <string name="connected">接続大丈夫 &#9786;</string>
+    
+    
+    
+    
+        <!-- Example General settings -->
+        <string name="title_activity_settings">設定</string>
+    <string name="pref_header_general">将軍</string>
+    <string name="pref_store_old_message">古いメッセージを保存する</string>
+    <string name="pref_store_old_message_description">あなたは、アプリを出た後のメッセージがデータベースに格納される</string>
+    <string name="store_old_message_key">store_old_message_key</string>
+    <string name="load_avatar">load_avatar</string>
+    <string name="pref_load_avatar_titile">負荷のアバター</string>
+    <string name="pref_load_avatar_description">あなたが遅いインターネットに接続している場合は、このチェックを外します</string>
+    <string name="pref_change_chat_background">変更チャットの背景</string>
+    <string name="pref_title_font_size">フォントサイズ</string>
+
+    <string-array name="pref_list_font_titles">
+        <item>スモール</item>
+        <item>ノーマル</item>
+        <item>ラージ</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <!-- activity login -->
+    
+    
+     <string name="title_activity_login">Sign in</string>
+        <string name="prompt_email">アカウント</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in_register"><b>サインイン</b></string>
+    <string name="action_sign_in_short">サインイン</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in &#8230;</string>
+    <string name="login_progress_loading">荷重 &#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">The password or usernam you enter is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_internet_connection">インターネット接続を確認して再試行してください</string>
+
+    <string name="welcome_message">Facebookのテキストへようこそ</string>
+    <string name="welcome_message_description">それではFacebookのアカウントを使用してお友達とおしゃべりしましょう</string>
+    <string name="connect_server_error">Facebookのサーバーエラーへの接続、もう一度試してください :)</string>
+    
+    <string name="cannot_connection">サーバに接続できない、接続を確認して再度お試しください &#9786;</string>
+    <string name="login_info_may_wrong">ログインできない、パスワードをユーザ名ともう一度試して確認してください &#9786;</string>
+    <string name="buildin_message_invite">迅速かつ簡単に Android用Facebookのメッセンジャー</string>
+    
+    
+        <string name="remove_ads_prompt_message">広告を削除する方法を次のいずれかを選択してください</string>
+    <string name="upgrade_to_remove_ads">アップグレード</string>
+    <string name="invite_friends_to_remove_ads">友達を招待</string>
+    <string name="invite">誘います</string>
+    <string name="invite_friend_failed">失敗した広告を削除し、後でもう一度お試しください!</string>
+    <string name="invitaiton_hint_message">あなたの招待メッセージ...</string>
+    <string name="sorry_no_contact">私はこのために本当に申し訳ありません！ Facebookは聞かせていないので、あなたは、サードパーティ製のメッセンジャーにログインします。あなたはそれを見て、別のアカウントや他のサードパーティ製アプリで試みることができる:(\n連絡先を見ることができなかった。私はそれが:(\nあなたはそれをアンインストールすることもできますが、ダウンして投票しないでくださいについてできることは何もありません！私はする必要があり私の猫を養います :(</string>
+    <string name="sorry_ttile">申し訳ありませんがバディ!</string>
+    <string name="sorry_okay">それは大丈夫です</string>
+    <string name="share_intent_toast_message">共有するあなたの友人を選択してください</string>
+</resources>

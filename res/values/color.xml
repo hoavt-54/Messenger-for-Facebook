@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- color from beem -->
+    <color name="blue_sky">#A0C8FF</color>
+    <color name="vert_manu">#CCFF00</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black_10_percent">#30000000</color>
+    <color name="black_30_percent">#4C000000</color>
+    <color name="black_40_percent">#66000000</color>
+    <color name="black_50_percent">#80000000</color>
+    <color name="black_60_percent">#99000000</color>
+    <color name="black_80_percent">#C8000000</color>
+    <color name="black_90_percent">#D8000000</color>
+    
+    
+    <!-- 4 colors from Google+ -->
+    <color name="google_plus_blue">#3B8FEF</color>
+    <color name="google_plus_blue_5">#093B8FEF</color>
+    <color name="google_plus_blue_10">#183B8FEF</color>
+    <color name="google_plus_blue_30">#4C3B8FEF</color>
+    <color name="google_plus_blue_60">#993B8FEF</color>
+    <color name="google_plus_red">#D25F50</color>
+    <color name="google_plus_red_30">#4CD25F50</color>
+    <color name="google_plus_red_60">#99D25F50</color>
+    <color name="google_plus_orange">#FF9E33</color>
+    <color name="google_plus_orange_30">#4CFF9E33</color>
+    <color name="google_plus_orange_60">#9CFF9E33</color>
+    <color name="google_plus_yallow">#FBE533</color>
+    <color name="google_plus_green">#33AF33</color>
+    <color name="google_plus_green_30">#4C33AF33</color>
+    <color name="google_plus_green_60">#9C33AF33</color>
+    
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#6633b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <!-- For settings framework -->
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="trans_color">#00000000</color>
+    <color name="online_indicator_color">#0F9D28</color>
+    <color name="holo_blue">#FF33B5E5</color>
+    <color name="textFieldColor">#000</color>
+    <color name="header_listview_background">#804965A0</color>
+    <color name="timeMessageOut">#7FBA00</color>
+    <color name="timeMessageIn">#CBCFD5</color>
+    <color name="separatorChatListViewText">#F0F8F8</color>
+    <color name="separatorChatListViewBackground">#80A0B8C0</color>
+
+    <!-- colors from telegram -->
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="chat_background_color">#ffd6e4ef</color>
+    <color name="gallery_background_color">#ff000000</color>
+    <color name="settings_background_color">#ffffffff</color>
+    <color name="divider">#dcdcdc</color>
+    <color name="header">#ff54759e</color>
+    <color name="list_user_color">#F9FAFC</color>
+    <color name="activity_color">#E9EAED</color>
+    <color name="theme_color">#004681</color>
+    <color name="connection_message_background">#80427f30</color>
+    <color name="connection_message_background_connected">#60d5eab4</color>
+    <color name="primaryDef">#54759E</color>
+    <color name="primaryDarkDef">#3C5E87</color>
+
+</resources>

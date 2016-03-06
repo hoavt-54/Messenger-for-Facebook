@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowWarrper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_in_chat_listview"
+    android:gravity="right"
+    android:layout_marginLeft="60dp"
+    android:layout_marginStart="60dp"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:id="@+id/messageWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/chat_outgoing_text_states" >
+
+        <TextView
+            android:id="@+id/messageContent"
+            style="@style/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="100"
+            android:ellipsize="none"
+            android:maxWidth="350dp"
+            android:padding="6dp"
+            android:paddingRight="0dp" />
+
+        <RelativeLayout
+            android:id="@+id/messageStatusWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/messageContent"
+            android:layout_alignRight="@+id/messageContent"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/sentTimeTxtView"
+                style="@style/timeMessageOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="0dp"
+                android:text="@string/sent_time" />
+
+            <ImageView
+                android:id="@+id/sentStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/msg_check"
+                android:layout_toRightOf="@id/sentTimeTxtView" />
+
+            <ImageView
+                android:id="@+id/seenStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/sentTimeTxtView" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

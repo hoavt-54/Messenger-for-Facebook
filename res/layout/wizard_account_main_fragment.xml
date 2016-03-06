@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+       <LinearLayout
+        android:id="@+id/account_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        style="@style/LoginFormContainer" >
+        
+        <ImageView
+            android:id="@+id/log_as_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_welcome_fbtext" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textColor="#21BEDE"
+            android:text="@string/welcome_message_description"/>
+        
+       </LinearLayout>
+        
+    </ScrollView>
+</LinearLayout>

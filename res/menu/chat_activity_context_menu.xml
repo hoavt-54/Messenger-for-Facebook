@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pendulab.moomee.ChatActivity" >
+    <item android:id="@+id/context_action_copy"
+        android:title="@string/action_copy"
+        android:icon="@drawable/ic_action_copy"
+        app:showAsAction="always"
+        />
+    
+    <item android:id="@+id/context_action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="always"/>
+	
+</menu>

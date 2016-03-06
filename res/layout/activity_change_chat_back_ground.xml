@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hoahong.facebook.messenger.ui.android.ChangeChatBackGroundActivity" >
+
+    <ImageView
+        android:id="@+id/large_background_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_hd"
+        android:text="@string/hello_world" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/change_background_preview_horizontal_view"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

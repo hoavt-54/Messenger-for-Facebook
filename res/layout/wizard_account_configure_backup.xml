@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_page_background"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/account_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        style="@style/LoginFormContainer" >
+        
+        <ImageView
+            android:id="@+id/log_as_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_welcome_fbtext" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:text="@string/welcome_message_description"/>
+
+        <EditText
+            android:id="@+id/account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_edittext_bg"
+            android:hint="@string/prompt_email"
+            android:inputType="textVisiblePassword"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-light" />
+
+        <EditText
+            android:id="@+id/account_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bottom_edittext_bg"
+            android:hint="@string/prompt_password"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/settings_warn_label"
+            style="@style/Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_wizard_settings_warn"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/login_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/action_sign_in_register" />
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="5dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="vertical"
+             android:gravity="left">
+
+  <!--       <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/avartar_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/load_avatar_titile"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:fontFamily="sans-serif" /> -->
+        
+        
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/status_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/status_titile"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"
+            style="@style/CheckBoxAppCompat" />
+        
+        </LinearLayout>
+        
+         <TextView
+            android:id="@+id/error_label"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="@string/account_wizard_connection_failed"
+            android:textColor="@color/red"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            android:inputType="textMultiLine"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</ScrollView>

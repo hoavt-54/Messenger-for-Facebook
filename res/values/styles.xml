@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="colorPrimary">@color/primaryDef</item>
+    	<item name="colorPrimaryDark">@color/primaryDarkDef</item>
+   	 	<item name="colorAccent">@color/primaryDef</item>
+        
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+
+        <!-- Support library compatibility -->
+        
+        
+        <item name="colorPrimary">@color/primaryDef</item>
+    	<item name="colorPrimaryDark">@color/primaryDarkDef</item>
+   	 	<item name="colorAccent">@color/primaryDef</item>
+    </style>
+    
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+</style>
+
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow</item>
+    </style>
+    
+    <style name="CheckBoxAppCompat" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/white</item>
+    	<item name="colorPrimaryDark">@color/white</item>
+   	 	<item name="colorAccent">@color/white</item>
+    </style>
+    
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="searchTextHiglight">
+        <item name="android:textColor">@color/holo_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="timeMessageOut">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/timeMessageOut</item>
+    </style>
+    
+    <style name="timeMessageIn">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/timeMessageIn</item>
+    </style>
+    
+    <style name="textMessage">
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">this is chat message</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+    <style name="SeparatorChatListView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/separatorChatListViewText</item>
+        <item name="android:background">@color/separatorChatListViewBackground</item>
+    </style>
+    <style name="lastMessage">
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">text content</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+	<style name="timeStampInSessionList">
+	    <item name="android:text">5:45</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:textColor">#a7afa7</item>
+	</style>
+	<style name="unReadMessageNumber">
+	    <item name="android:text">1</item>
+	    <item name="android:textSize">13sp</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:background">#65B823</item>
+	</style>
+	<style name="friendNameInList">
+	    <item name="android:text">Name</item>
+	    <item name="android:textColor">#040404</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">16sp</item>
+	</style>
+	
+	<style name="loginTitleStyle">
+	    <item name="android:textColor">@color/black</item>
+	    <item name="android:background">@null</item>
+	    <item name="android:padding">4dp</item>
+	    <item name="android:textSize">16sp</item>
+	</style>
+	
+	<style name="LoginEditText">
+	    <item name="android:background">@null</item>
+	    <item name="android:maxLines">1</item>
+	    <item name="android:padding">12dp</item>
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:typeface">sans</item>
+	</style>
+	
+	<style name="LoginForgotPasswordTv">
+	    <item name="android:padding">5dp</item>
+	    <item name="android:textColor">#97a7c8</item>
+	    <item name="android:textSize">14sp</item>
+	</style>
+</resources>

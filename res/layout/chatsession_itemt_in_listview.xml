@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/hoahong.facebook.messenger"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:background="@color/list_user_color"
+    android:paddingBottom="5dp">
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <com.makeramen.RoundedImageView
+        android:id="@+id/chat_session_avatar"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/user_placeholder_fb"
+        app:riv_corner_radius="26dip"
+        app:riv_border_width="0dip"
+        app:riv_mutate_background="true" />
+
+    <!-- FriendName -->
+
+    <TextView
+        android:id="@+id/chat_session_friend_name"
+        style="@style/friendNameInList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/chat_session_avatar"
+        android:paddingBottom="2dp"
+        android:typeface="sans" />
+
+    
+    <!-- LastMessage -->
+	<!-- last message status -->
+    <ImageView
+        android:id="@+id/chat_session_last_message_status_imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_session_friend_name"
+        android:layout_toRightOf="@+id/chat_session_avatar"
+        android:paddingTop="4dp"
+        android:src="@drawable/msg_check" />
+
+    <TextView
+        android:id="@+id/chat_session_last_message_content_tv"
+        style="@style/lastMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_session_friend_name"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/chat_session_last_message_status_imgview" />
+
+    <!-- time -->
+
+    <TextView
+        android:id="@+id/chat_sessiontimeTxtView"
+        style="@style/timeStampInSessionList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="4dp"
+        android:layout_marginRight="5dp"/>
+
+    
+    <!-- unread message -->
+    <TextView
+        android:id="@+id/chat_session_unread_message"
+        style="@style/unReadMessageNumber"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignBaseline="@+id/chat_session_last_message_content_tv"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chat_sessiontimeTxtView"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="4dp"
+		android:gravity="center" />
+    
+    <View android:layout_width="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/chat_session_avatar"
+        android:layout_marginTop="5dp"
+        android:background="@color/holo_gray_light"/>
+
+
+</RelativeLayout>

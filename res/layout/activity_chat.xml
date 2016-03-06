@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hoahong.facebook.messenger.ui.SizeNotifierRelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_activity_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_hd"
+    android:orientation="vertical" >
+    
+    <!-- <fragment
+        android:id="@+id/adFragment"
+        android:name="hoahong.facebook.messenger.ui.android.ChatActivity$AdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" /> -->
+    
+       <!--   -->
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/chat_listview"
+		android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/chat_compose_panel"
+        android:cacheColorHint="@color/trans_color"
+        android:divider="@color/trans_color"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:stackFromBottom="true"
+        android:listSelector="@color/trans_color" >
+    </se.emilsjolander.stickylistheaders.StickyListHeadersListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/compose_panel"
+        android:id="@+id/chat_compose_panel"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+        
+        
+        <ImageView
+            android:src="@drawable/ic_attach_gallery"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="centerInside"
+            android:padding="3dp"
+            android:id="@+id/chat_image_attachment"
+            android:layout_alignBottom="@+id/chat_text_edit"/>
+
+        <ImageView
+            android:src="@drawable/ic_msg_panel_smiles"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:paddingTop="1dp"
+            android:scaleType="centerInside"
+            android:layout_toRightOf="@+id/chat_image_attachment"
+            android:layout_toEndOf="@+id/chat_image_attachment"
+            android:id="@+id/chat_smile_button"
+            android:layout_alignBottom="@+id/chat_text_edit"/>
+        
+        
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="centerInside"
+            android:id="@+id/chat_send_button"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/chat_text_edit"
+            android:enabled="false"
+            android:src="@drawable/send_button_states"
+            android:background="@color/trans_color"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_text_edit"
+            android:layout_toRightOf="@id/chat_smile_button"
+            android:layout_toLeftOf="@id/chat_send_button"
+            android:layout_marginTop="4dp"
+            android:paddingTop="4dp"
+            android:maxLines="4"
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            android:textColorHint="#909090"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textCapSentences|textMultiLine"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="12dp"
+            android:maxLength="16384"
+            android:background="@null"
+            android:hint="Type your message ..."
+            android:layout_centerVertical="true"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+<LinearLayout
+        android:id="@+id/connection_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/connection_message_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/connection_progressbar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp" />
+
+        <TextView
+            android:id="@+id/connection_message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#80FFFFFF" />
+    </LinearLayout>
+    
+</hoahong.facebook.messenger.ui.SizeNotifierRelativeLayout>

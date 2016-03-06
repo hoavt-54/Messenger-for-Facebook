@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/rating_layout_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_rating_smile"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/good"
+            android:textColor="@color/google_plus_blue"
+            android:background="@drawable/selectable_background_facebooktextactionbar"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/rating_layout_not_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_rating_bad"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/Bad"
+            android:textColor="@color/google_plus_blue"
+            android:background="@drawable/selectable_background_facebooktextactionbar"
+            android:padding="10dp"
+            android:textSize="14sp" />
+        
+        <TextView
+            android:id="@+id/rating_layout_later"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:background="@drawable/selectable_background_facebooktextactionbar"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/later"
+            android:textColor="@color/google_plus_blue"
+            android:textSize="14sp" />
+        
+</LinearLayout>

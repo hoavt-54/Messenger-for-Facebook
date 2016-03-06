@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.mango.fbtext.ChatActivity" >
+
+   <item 
+        android:id="@+id/acction_share_app"
+        android:title="@string/action_share_this_app"
+        app:showAsAction="never"/>
+   
+     <item 
+        android:id="@+id/acction_rate"
+        android:title="@string/action_rate_app"
+        app:showAsAction="never"/>
+   
+    
+    <item 
+        android:id="@+id/acction_change_chat_background"
+        android:title="@string/action_change_background"
+        app:showAsAction="never"/>
+    
+    <item 
+        android:id="@+id/action_rename_friend"
+        android:title="@string/action_rename_friend"
+        app:showAsAction="never"/>
+    
+    <item 
+        android:id="@+id/acction_block_friend"
+        android:title="@string/action_block_friend"
+        app:showAsAction="never"/>
+    
+    <item 
+        android:id="@+id/acction_unblock_friend"
+        android:title="@string/action_unblock_friend"
+        app:showAsAction="never"/>
+    
+    
+    <item 
+        android:id="@+id/action_add_favorite"
+        android:title="@string/action_add_favourite"
+        app:showAsAction="never"/>
+    
+    <item 
+        android:id="@+id/action_remove_favorite"
+        android:title="@string/action_remove_favorite"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+     <item 
+        android:id="@+id/action_delete_chat"
+        android:title="@string/action_delete_chat"
+        app:showAsAction="never"/>
+
+</menu>

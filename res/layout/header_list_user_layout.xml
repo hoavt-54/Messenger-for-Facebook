@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/header_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        android:text="Header 1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:background="@color/header_listview_background"/>
+
+</LinearLayout>

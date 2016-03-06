@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remove_ads_prompt_message">विज्ञापनों को हटाने के लिए तरीके निम्न में से किसी एक को चुनें</string>
+    <string name="upgrade_to_remove_ads">नवीनीकरण</string>
+    <string name="invite_friends_to_remove_ads">मित्रों को आमंत्रित करें</string>
+    <string name="invite">आमंत्रण</string>
+    <string name="invite_friend_failed">Remove ads failed, please try again later!</string>
+    <string name="invitaiton_hint_message">आपका आमंत्रण संदेश...</string>
+    <string name="buildin_message_invite">एंड्रॉयड के लिए तेज और सरल फेसबुक मैसेंजर</string>
+    <string name="sorry_no_contact">मैं इस के लिए वास्तव में माफी चाहता हूँ ! फेसबुक देना नहीं है के बाद से आप 3 पार्टी के दूत लॉगिन । आपको लगता है कि देखने के लिए किसी अन्य खाते से या किसी अन्य 3 पार्टी अनुप्रयोग के साथ की कोशिश कर सकते :( \nअपने संपर्कों को नहीं देख सकता था । मैं यह :( \nआप इसे स्थापना रद्द करने के लिए चाहते हो सकता है , लेकिन नीचे वोट नहीं करते कृपया के बारे में कुछ नहीं कर सकता है ! मैं करने की जरूरत है मेरी बिल्ली फ़ीड :(</string>
+</resources>

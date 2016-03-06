@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="set">Set</string>
+    <string name="app_name">Facebook Text</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_logout">Abmeldung</string>
+    <string name="action_change_background">Chat Hintergrund</string>
+    <string name="action_rename_friend">Umbenennen Sie diese Freund</string>
+    <string name="action_block_friend">Block diese Freund</string>
+    <string name="action_unblock_friend">Unblock diese Freund</string>
+    <string name="action_add_favourite">Add as Favorit</string>
+    <string name="action_remove_favorite">Remove from Favorit</string>
+    <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
+    <string name="mtm_decision_always">Always</string>
+    <string name="mtm_decision_once">Once</string>
+    <string name="mtm_decision_abort">Abort</string>
+    <string name="mtm_notification">Certificate Verification</string>
+    <string name="mtm_trust_anchor">The server certificate is not signed by a known Certificate Authority.</string>
+    <string name="mtm_cert_expired">The server certificate is expired.</string>
+    <string name="mtm_accept_servername">Accept Mismatching Server Name?</string>
+    <string name="mtm_hostname_mismatch">Server could not authenticate as \&quot;%s\&quot;. The certificate is only valid for:</string>
+    <string name="mtm_connect_anyway">Do you want to connect anyway?</string>
+    <string name="mtm_cert_details">Certificate details:</string>
+    <string name="friend_name_default">Facebook User</string>
+    <string name="loading">Loading &#8230;</string>
+    <string name="no_result">No friend found</string>
+    <string name="no_friend_loaded">No friend loaded yet</string>
+    <string name="action_search">Search</string>
+    <string name="action_change_state_chat">Ändern Sie Online-Status</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="sent_time">11h47 pm</string>
+    <string name="enter_new_name">Geben Sie den neuen Namen</string>
+
+    <!-- <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string> -->
+    <string name="multiple_space">"    \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0      "</string>
+    <string name="title_activity_change_chat_back_ground">Wählen Sie Chat Hintergrund</string>
+
+    <string name="load_avatar_titile">Lastavatarbild</string>
+    <string name="load_avavtar_caution"> Dies kann die Verbindung langsam</string>
+    
+    <string name="status_titile">Melde dich unsichtbar</string>
+    
+    <string name="change_status_title">Status ändern</string>
+    <string name="online">Online</string>
+    <string name="offline">unsichtbar</string>
+    <string name="connecting_message">Anschließen an Facebook-Server &#8230;</string>
+    <string name="is_now_online">ist jetzt online</string>
+    <string name="is_offline">ist jetzt offline</string>
+    <string name="is_online">ist jetzt online</string>
+    <string name="added">zusätzlich </string>
+    <string name="removed">entfernt </string>
+    <string name="from_block_list"> from block list</string>
+    <string name="into_block_list"> into block list</string>
+    <string name="block_description">Sie erhalten keine Benachrichtigung, wenn neue Mitteilung von diesem Freund kommen</string>
+    <string name="as_favorite">Favorit</string>
+    <string name="from_favorite_list"> from list favorites</string>
+    <string name="favorite_description">Sie werden benachrichtigt, wenn Online- Lieblingsfreund werden</string>
+    <string name="login">Login</string>
+    
+    <string name="close_connection_message">Verbindung geschlossen!</string>
+    
+    <string name="not_connect">nicht angeschlossen  &#9785;</string>
+    <string name="connecting">Verbindungs &#8230;</string>
+    <string name="no_internet_connection">Keine Internetverbindung &#9785;</string>
+    <string name="connected">Anschluss in Ordnung &#9786;</string>
+    
+    
+    
+    
+        <!-- Example General settings -->
+        <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_store_old_message">Store old message</string>
+    <string name="pref_store_old_message_description">Mitteilungen werden in der Datenbank gespeichert werden , nachdem Sie die App zu verlassen</string>
+    <string name="store_old_message_key">store_old_message_key</string>
+    <string name="load_avatar">load_avatar</string>
+    <string name="pref_load_avatar_titile">Load avatar</string>
+    <string name="pref_load_avatar_description">Deaktivieren Sie diese Option, wenn Sie langsame Internet-Verbindung haben</string>
+    <string name="pref_change_chat_background">Chat Änderungshinter</string>
+    <string name="pref_title_font_size">Schriftgröße</string>
+
+    <string-array name="pref_list_font_titles">
+        <item>Gering</item>
+        <item>Normal</item>
+        <item>groß</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <!-- activity login -->
+    
+    
+     <string name="title_activity_login">Sign in</string>
+        <string name="prompt_email">Konto</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in_register"><b>anmelden</b></string>
+    <string name="action_sign_in_short">anmelden</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in &#8230;</string>
+    <string name="login_progress_loading">Loading &#8230;</string>
+    <string name="error_invalid_email">This account address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">The password or usernam you enter is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_internet_connection">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut</string>
+
+    <string name="welcome_message">Willkommen auf Facebook Text</string>
+    <string name="welcome_message_description">Lassen Sie uns mit Ihren Freunden chatten - login by using your Facebook Konto</string>
+    <string name="connect_server_error">Verbindung zu Facebook-Server Fehler, versuchen Sie es erneut:)</string>
+    
+    <string name="cannot_connection">Kann keine Verbindung zum Server , überprüfen Sie bitte Ihre Verbindung und versuchen Sie es erneut &#9786;</string>
+    <string name="login_info_may_wrong">Kann nicht anmelden , überprüfen Sie bitte Ihren Benutzernamen Passwort und versuchen Sie es erneut &#9786;</string>
+    
+    
+    
+    
+    <string name="remove_ads_prompt_message">Wählen Sie eine der folgenden Möglichkeiten, um Werbung zu entfernen</string>
+    <string name="upgrade_to_remove_ads">Aktualisierung</string>
+    <string name="invite_friends_to_remove_ads">Freunde einladen</string>
+    <string name="invite">Einladen</string>
+    <string name="invite_friend_failed">Remove ads failed, please try again later!</string>
+    <string name="invitaiton_hint_message">Ihre Einladungsnachricht...</string>
+    <string name="buildin_message_invite">Schnelle und einfache Facebook Messenger für Android</string>
+    <string name="sorry_no_contact">Ich bin wirklich leid für diese! Da Facebook nicht lassen Sie sich einloggen 3rd-Party- messenger . Sie konnte nicht sehen, Ihre Kontakte :( \nDu könnte ein anderes Konto oder eine andere 3rd-Party- App versuchen, das zu sehen. Es gibt nichts, was ich dagegen :( \nVielleicht möchten Sie es deinstallieren, aber bitte nicht zu stimmen sich zu tun! Ich muss Weide meine Katze :(</string>
+    <string name="sorry_ttile">Es tut uns leid Kumpel!</string>
+    <string name="sorry_okay">Das ist in Ordnung</string>
+    
+    
+</resources>

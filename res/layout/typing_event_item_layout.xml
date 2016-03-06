@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowWarrper"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_in_chat_listview"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <hoahong.facebook.messenger.ui.MLRoundedImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_placeholder" />
+
+    <RelativeLayout
+        android:id="@+id/messageWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/message_profile_image"
+        android:background="@drawable/typing_dots" >
+        
+
+       
+    </RelativeLayout>
+
+</RelativeLayout>

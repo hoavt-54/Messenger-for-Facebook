@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="visible" >
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:background="@color/black_40_percent">
+    
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/shadow_94533"
+        android:padding="12dp">
+        
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_black_layout_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/chat_heads_notif_info"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="Please Wait"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connecting to server..."
+                android:layout_marginRight="10dp"
+                android:ellipsize="none"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

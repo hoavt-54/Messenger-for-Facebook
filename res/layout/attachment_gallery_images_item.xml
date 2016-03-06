@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right" >
+
+    <hoahong.facebook.messenger.ui.SquaredImageView
+        android:id="@+id/image_item_in_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/attachment_gallery_images_items_background"/>
+
+    <View
+        android:id="@+id/photo_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageCheckStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:padding="2dp"
+        android:src="@drawable/selectphoto_small" />
+
+</FrameLayout>

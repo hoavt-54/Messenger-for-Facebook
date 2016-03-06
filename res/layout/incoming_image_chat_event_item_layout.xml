@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowWarrper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/row_in_chat_listview"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <hoahong.facebook.messenger.ui.MLRoundedImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_placeholder" />
+
+    <RelativeLayout
+        android:id="@+id/messageWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/message_profile_image"
+        android:background="@drawable/chat_incoming_media_states"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/messageImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/nophotos"
+            android:adjustViewBounds="true"
+            android:maxHeight="800dp" />
+
+        <ProgressBar
+            android:id="@+id/image_loading_progress_bar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/sentTimeTxtView"
+            style="@style/timeMessageIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/messageImage"
+            android:layout_alignRight="@+id/messageImage"
+            android:background="#80000000"
+            android:padding="2dp"
+            android:text="@string/sent_time" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

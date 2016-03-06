@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowWarrper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/row_in_chat_listview"
+    android:gravity="left"
+    android:layout_marginRight="80dp"
+    android:layout_marginEnd="80dp"
+    android:orientation="vertical" >
+
+    <hoahong.facebook.messenger.ui.MLRoundedImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_placeholder" />
+
+    <RelativeLayout
+        android:id="@+id/messageWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/message_profile_image"
+        android:background="@drawable/chat_incoming_text_states" >
+
+        <TextView
+            android:id="@+id/messageContent"
+            style="@style/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:maxWidth="350dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/sentTimeTxtView"
+            style="@style/timeMessageIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/messageContent"
+            android:layout_alignRight="@+id/messageContent"
+            android:layout_gravity="bottom"
+            android:padding="5dp"
+            android:text="@string/sent_time" />
+    </RelativeLayout>
+
+</RelativeLayout>

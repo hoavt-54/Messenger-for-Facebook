@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    
+    <Preference 
+        android:title="@string/pref_upgrade"
+        android:summary="@string/pref_upgrade_description"
+        android:key="hoahong.android.facebook.messenger.upgrade"/>
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="fasdfasdf_dfasdfasd"
+        android:summary="@string/pref_pedding_notification_description"
+        android:title="@string/pref_pedding_notification" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/store_old_message_key"
+        android:summary="@string/pref_store_old_message_description"
+        android:title="@string/pref_store_old_message" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/load_avatar"
+        android:summary="@string/pref_load_avatar_description"
+        android:title="@string/pref_load_avatar_titile" />
+    
+    
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_list_font_titles"
+        android:entryValues="@array/pref_list_font_values"
+        android:key="@string/pref_font_size_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_font_size" />
+    
+    <Preference 
+        android:title="@string/pref_change_chat_background"
+        android:key="pref_change_background"/>
+    
+
+</PreferenceScreen>

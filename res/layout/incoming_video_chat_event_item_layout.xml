@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowWarrper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/row_in_chat_listview"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/messageWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/msg_in"
+        android:paddingBottom="5dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/messageImage"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="800dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nophotos" />
+
+        <RelativeLayout
+            android:id="@+id/messageStatusWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/messageImage"
+            android:layout_alignRight="@+id/messageImage"
+            android:layout_margin="5dp"
+            android:layout_marginRight="0dp"
+            android:background="#80000000"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sentTimeTxtView"
+                style="@style/timeMessageOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="0dp"
+                android:text="@string/sent_time" />
+
+        </RelativeLayout>
+        <View 
+            android:id="@+id/video_play_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_play_video_states"
+            android:layout_centerInParent="true"/>
+
+        <ProgressBar
+            android:id="@+id/image_loading_progress_bar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
